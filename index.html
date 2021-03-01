@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Manager</title>
+</head>
+
+<body style="width: 100vw;height: 100vh;background-color: #ffffff;display: flex;">
+    <main class="contact_manager">
+
+        <i class="header">
+            <img id="contact_img" src="icon/addContact.svg" alt="Contacts">
+            <p>Contact Manager</p>
+        </i>
+
+        <form onsubmit="submitContact(event);">
+            <input id="name" type="text" placeholder="Add Contact Name..">
+            <input id="number" type="number" placeholder="Add Contact Number..">
+            <button type="submit">Add contact</button>
+        </form>
+
+        <section class="contacts">
+
+           <!------- <i id="user" style="display: flex;">
+                <img src="icon/showContact.svg" alt="Users">
+                <p id="display" style="color:whitesmoke; font-family: arial; font-weight: 500;">
+                    Shiva Kamat <br> 7847966612
+                </p>
+                <img src="icon/close.svg" alt="Close">
+            </i>----->
+           
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
